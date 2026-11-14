@@ -23,5 +23,7 @@ GDO has a single universal type system for everything.
 A GDT knows how to behave in every context,
 and your type definitions can be re-used in different spots of your application.
 
-Due to a clever type hierarchy, you rarely need to write a custom validator,
+Due to the type hierarchy, we rarely need to write a custom validator,
 and the types feature tooltips, icons and labels when used.
+
+#

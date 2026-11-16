@@ -29,10 +29,10 @@ The types feature also tooltips, icons and labels when used.
 # Connect
 
 If you are writing a cool application, you probably want more than HTTP.
-pygdo is written as a kraken, everything knows anything.
+PyGDO is written as a kraken, everything knows anything.
 
 In old terms, we have great Inter-Process-Communication,
-using RDIS as the one and only memory, and as a major cache.
+using REDIS as the one and only memory, and as a major cache.
 
 We support any text based system, like Slack, Discord, Telegram, HTTP, bash, TCP/IP, and more.
 Our Programming language is english now – or any other supported one.

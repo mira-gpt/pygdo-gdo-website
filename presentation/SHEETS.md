@@ -7,7 +7,7 @@ It's main use case is rapid development of highly dynamic apps of middle size.
 The current versions are [phpgdo](https://github.com/gizmore/phgpdo) (v7) and
 [PyGDO](https:/github.com/gizmore/pygdo) (v8).
 
-It is different to it's competitors, starting at the architecture.
+It is different to its competitors, starting at the architecture.
 
 GDO is MTTR not MVC, which is short for Model-Type-Type-Render,
 emphasizing the central role of the types called GDT.

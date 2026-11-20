@@ -41,3 +41,11 @@ Our Programming language is english now – or any other supported one.
 
 I do not know if you ever were surprised how good your own software and ideas turn out.
 With PyGDO, I do experience that on a daily basis.
+
+# Also Interesting!
+
+We managed to couple the PyGDO chatbot system with an AI.
+PyGDO is rather small, so quite some modules and dependencies fit into their Context Window.
+Also, we have developed quite a few tricks that make your AI Experience harmonic and wonderful.
+
+One System beat all!

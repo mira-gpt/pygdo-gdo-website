@@ -4,6 +4,8 @@ from gdo.base.GDO_Module import GDO_Module
 from gdo.base.GDO import GDO
 from gdo.base.GDT import GDT
 from gdo.ui.GDT_Link import GDT_Link
+from gdo.core.GDT_Decimal import GDT_Decimal
+from gdo.gdo_website.GDO_GDOMod import GDO_GDOMod
 
 from typing import TYPE_CHECKING
 
@@ -14,13 +16,14 @@ if TYPE_CHECKING:
 class module_gdo_website(GDO_Module):
 
     def gdo_classes(self) -> list[type[GDO]]:
-        return []
+        return [GDO_GDOMod]
 
     async def gdo_install(self):
-        pass
+        from gdo.gdo_website.InstallGDOMods import InstallGDOMods
+        InstallGDOMods.now()
 
     def gdo_module_config(self) -> list[GDT]:
-        return []
+        return [GDT_Decimal('pygdo_all_lifetime_price').digits(11, 2).min(0).not_null().initial('9001')]
 
     def gdo_user_config(self) -> list[GDT]:
         return []
